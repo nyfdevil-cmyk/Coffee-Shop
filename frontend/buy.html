@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Coffee</title>
+  <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+
+  <section class="buy-section">
+
+    <div class="buy-container">
+
+      <h1>Buy Your Coffee</h1>
+
+      <img
+        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200"
+        alt="Coffee"
+      >
+
+      <h2>Premium Cappuccino</h2>
+
+      <p class="price">$7</p>
+      <form id="orderForm">
+
+        <input
+          type="text"
+          id="name"
+          placeholder="Your Name"
+          required
+        >
+    
+        <input
+          type="email"
+          id="email"
+          placeholder="Your Email"
+          required
+        >
+
+        <input
+          type="number"
+          id="quantity"
+          placeholder="Quantity"
+          required
+        >
+
+        <button type="submit">
+          Buy Now
+        </button>
+
+      </form>
+      <p id="message"></p>
+
+    </div>
+
+    
+
+  </section>
+
+  <script src="buy.js"></script>
+
+</body>
+</html>
