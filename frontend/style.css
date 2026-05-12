@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
   background: #f8f5f2;
@@ -67,6 +71,21 @@ nav ul li a {
   cursor: pointer;
   font-size: 16px;
 }
+.order-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #b37d4e; /* भूरा/कॉफी रंग */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.order-btn:hover {
+    background-color: #96643c; /* होवर करने पर डार्क रंग */
+}
+
 
 .menu {
   padding: 60px 20px;
